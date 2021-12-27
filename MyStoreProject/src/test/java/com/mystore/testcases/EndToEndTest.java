@@ -72,6 +72,7 @@ public class EndToEndTest extends BaseClass {
 		String expectedMsg="Your order on My Store is complete.";
 		Assert.assertEquals(actualMessage, expectedMsg);
 		Log.endTestCase("endToEndTest");
+		
 	}
 
 }
